@@ -30,7 +30,7 @@ formatter = logging.Formatter(
 )
 formatter.converter = time.gmtime
 log_file_handler.setFormatter(formatter)
-logger = logging.getLogger("endpoint suite logger")
+logger = logging.getLogger("omniquestor logger")
 logger.addHandler(log_file_handler)
 
 
