@@ -80,7 +80,3 @@ class Omniquestor:
         logger.info("The DELETE response status code: %s", delete_response.status_code)
         logger.info("The DELETE response details: %s", delete_response.json())
         return delete_response
-
-
-# get_site_id_omniquestor = Omniquestor(sites_endpoint_url, admin_headers, request_type="get")
-# get_site_id_response = get_site_id_omniquestor.response()
