@@ -21,5 +21,5 @@ For requests with an item id be sure to include it in the endpoint_url:
 
 Then usage is the same as above:
 
-`put__item_example_omniquestor = Omniquestor(endpoint_url, headers=auth_header, request_type="put")`
-`put_item_example_response = put__item_example_omniquestor.response()`
+`put_item_example_omniquestor = Omniquestor(endpoint_url, headers=auth_header, request_type="put")`
+`put_item_example_response = put_item_example_omniquestor.response()`
